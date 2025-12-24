@@ -68,7 +68,7 @@ const Hero = () => {
               View Projects
             </button>
             <a
-              href="/Naufal-resume-4.pdf"
+              href="/Naufal-resume-9.pdf"
               download
               className="px-6 sm:px-8 py-2 sm:py-3 bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400/10 rounded-lg font-medium transition-all flex items-center gap-2 text-sm sm:text-base"
             >

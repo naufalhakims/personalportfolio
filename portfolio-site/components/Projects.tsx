@@ -19,7 +19,7 @@ const Projects = () => {
       image: '/FilmRecommendation.png',
       tech: ['Apache Pyspark', 'Minio', 'Streamlit', 'Apache Kafka', 'Docker', 'Python'],
       github: 'https://github.com/naufalhakims/bigdata-final-project',
-      tags: ['Data'],
+      tags: ['AI/ML/Data'],
     },
     {
       title: 'BisaKita Donation Web App',
@@ -37,7 +37,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop',
       tech: ['Jupyter Notebook', 'Python', 'Pandas', 'Matplotlib', 'Seaborn'],
       github: 'https://www.kaggle.com/code/naufalhakim123/modul-1',
-      tags: ['Data'],
+      tags: ['AI/ML/Data'],
     },
     {
       title: 'Classification & Regression on Predicting Estimated Delivery Time',
@@ -46,7 +46,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop',
       tech: ['Jupyter Notebook', 'Python', 'Pandas', 'Matplotlib', 'Seaborn'],
       github: 'https://www.kaggle.com/code/naufalhakim123/ai-modul-2',
-      tags: ['AI/ML'],
+      tags: ['AI/ML/Data'],
     },
     {
       title: 'Unsupervised Learning on Economic Profile Countries Dataset',
@@ -55,7 +55,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop',
       tech: ['Python', 'Pandas', 'Numpy', 'Sklearn', 'Matplotlib', 'Seaborn'],
       github: 'https://www.kaggle.com/code/naufalhakim123/prak-3',
-      tags: ['Data'],
+      tags: ['AI/ML/Data'],
     },
     {
       title: 'Sign Language Model Predictor using CNN',
@@ -64,7 +64,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1733370446176-cf060c668a28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       tech: ['Python', 'Pandas', 'Numpy', 'Sklearn', 'Matplotlib', 'Seaborn'],
       github: 'https://www.kaggle.com/code/naufalhakim123/akseleratorgacor',
-      tags: ['AI/ML'],
+      tags: ['AI/ML/Data'],
     },
     {
       title: 'Twitter Sentiment Analysis',
@@ -73,7 +73,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1611605698335-8b1569810432?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       tech: ['Python', 'Pandas', 'Numpy', 'Sklearn', 'Matplotlib', 'Seaborn', 'NLTK', 'TensorFlow'],
       github: 'https://www.kaggle.com/code/naufalhakim123/modul-5',
-      tags: ['AI/ML'],
+      tags: ['AI/ML/Data'],
     },
     {
       title: 'Emotion Prediction Classification from Text',
@@ -82,7 +82,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1694109183960-18f5a3ed082c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZW1vaml8ZW58MHx8MHx8fDI%3D',
       tech: ['Python', 'Pandas', 'Numpy', 'Sklearn', 'Matplotlib', 'Seaborn', 'Pytorch'],
       github: 'https://www.kaggle.com/code/naufalhakim123/modul6-lastt',
-      tags: ['AI/ML'],
+      tags: ['AI/ML/Data'],
     },
     {
       title: 'HMIT Tuas Prakarsa Media & Information',
@@ -104,7 +104,7 @@ const Projects = () => {
     },
   ];
 
-  const categories = ['All', 'Data', 'AI/ML', 'Web Development', 'Design'];
+  const categories = ['All', 'AI/ML/Data', 'Web Development', 'Design'];
 
   const filteredProjects = activeFilter === 'All' 
     ? projects 

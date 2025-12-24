@@ -55,7 +55,15 @@ const Experience = () => {
         'Assisted in teaching Law & Ethics in Information Technology course for undergraduate students. Conducted discussions, graded assignments, and provided support to students in understanding legal and ethical issues in IT.',
       skills: ['Research', 'Communication'],
     },
-    
+    {
+      type: 'work',
+      title: 'Social Media Marketing Staff',
+      organization: 'A Renewal Agent 5.0',
+      period: 'October 2023 - May 2024',
+      description:
+        'Managed social media accounts and created marketing content for the A Renewal Agent 5.0 event. Developed strategies to increase engagement and reach a wider audience.',
+      skills: ['Branding'],
+    },
     
   ];
 
