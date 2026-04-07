@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -47,7 +49,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${poppins.variable} ${robotoMono.variable} font-sans antialiased`}>{children}</body>
+      <body
+        className={`${poppins.variable} ${robotoMono.variable} font-sans antialiased`}
+      >
+        <div className="min-h-screen bg-neutral-950 text-neutral-100">
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
